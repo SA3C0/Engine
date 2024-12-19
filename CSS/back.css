@@ -1,0 +1,200 @@
+:root {
+  font-size: 62.5%;
+  --main-text-color: #f5f5f5;
+  --main-back-color: #10151C;
+  --doup-text-color: #7E8597;
+  --doup-back-color: #e9e9ea;
+  --doubledoup-back-color: #2c2c31;
+  --doubledoup-text-color: #FA0369;
+  --form-color: #141A25;
+}
+
+* {
+  line-height: 1.6;
+  margin: 0;
+
+}
+.right-left{
+  padding-left: 1rem;
+}
+.logo {
+  padding: relative;
+}
+body {
+  color: var(--main-text-color);
+  /* Светло-серый текст */
+  background-color: var(--main-back-color);
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.bodynext {
+  color: var(--main-back-color);
+  background-color: var(--main-text-color);
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding:2rem;
+}
+
+.bodyfoot {
+  color: var(--doup-text-color);
+  background-color: var(--doup-back-color);
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 2rem;
+}
+
+.button-special {
+  color: var(--main-text-color);
+  width: 11em;
+  height: 38px;
+  background-color: var(--doubledoup-back-color);
+}
+
+.red {
+  color: var(--doubledoup-text-color);
+  font-size: 1.6rem;
+}
+
+
+.babyback {
+  position: absolute;
+    width: 130%;
+    z-index: -1;
+    aspect-ratio: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.merge {
+  position: relative;
+  width: max-content;
+}
+.circle_back {
+  position: absolute;
+    width: 140%;
+    z-index: -1;
+    aspect-ratio: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.square {
+  width: 327px;
+  /* Ширина квадрата */
+  height: 260px;
+  /* Высота квадрата */
+  background-color: var(--form-color);
+  /* Цвет фона */
+  border-radius: 15px;
+  /* Радиус скругления углов */
+}
+.pd {
+  padding: 2rem;
+}
+.center-flex {
+  padding-left: 2rem;
+  width: 40rem;
+}
+.oval {
+  width: max-content;
+  /* Ширина овала */
+  background-color: var(--doubledoup-text-color);
+  /* Розовый цвет */
+  border-radius: 9999px;
+  /* Создаем овал */
+  color: var(--main-text-color);
+  font-size: 1.4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  height: max-content;
+}
+
+.bigsquare {
+  padding: 2rem;
+  width: 328px;
+  /* Ширина квадрата */
+  height: 545px;
+  /* Высота квадрата */
+  background-color: var(--form-color);
+  /* Цвет фона */
+  border-radius: 30px;
+  /* Радиус скругления углов */
+  color: var(--main-text-color);
+
+}
+
+.bigoval {
+  width: max-content;
+  /* Ширина овала */
+  background-color: var(--doubledoup-text-color);
+  /* Розовый цвет */
+  border-radius: 9999px;
+  /* Создаем овал */
+  color: var(--main-text-color);
+  font-size: 1.4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  height: max-content;
+}
+
+.chart {
+  color: var(--doup-text-color);
+  font-size: 1.6rem;
+}
+
+.chart12 {
+  color: var(--doup-text-color);
+  font-size: 1.2rem;
+}
+
+.chart18 {
+  color: var(--doup-text-color);
+  font-size: 1.8rem;
+}
+
+.chart16 {
+  color: var(--doup-text-color);
+  font-size: 1.6rem;
+}
+
+.medium {
+  font-size: 3.2rem;
+}
+
+.txt24 {
+  font-size: 2.4rem;
+}
+
+.txt18 {
+  font-size: 1.8rem;
+}
+
+.txt16 {
+  font-size: 1.6rem;
+}
+
+.txt14 {
+  font-size: 1.4rem;
+}
+
+.txt12 {
+  font-size: 1.2rem;
+}
+
+.container {
+  max-width: 480px;  /* Ограничиваем максимальную ширину */
+  margin: auto;     /* Центрируем контент по горизонтали */
+}
+
+.baby {
+  width: 30rem;
+}
